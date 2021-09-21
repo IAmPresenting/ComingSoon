@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
