@@ -1,4 +1,4 @@
-# Coming Soon Web Page
+# IAmPresenting Coming Soon Page
 
 IAmPresenting Coming Soon Page Template and it changes text and background color depending on time of day (day/night)
 
