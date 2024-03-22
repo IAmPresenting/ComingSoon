@@ -47,14 +47,14 @@
 
 .contactsign {
   font-size: 90px;
-  color: green;
+  color: #FAC340;
   text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .contactsign {
     font-size: 90px;
-    color: green;
+    color: #FAC340;
     text-align: center;
     margin-left: 40%;
   }
@@ -65,33 +65,43 @@
   0% {
     color: orange;
   }
+
   10% {
     color: purple;
   }
+
   20% {
     color: red;
   }
+
   30% {
     color: CadetBlue;
   }
+
   40% {
     color: yellow;
   }
+
   50% {
     color: coral;
   }
+
   60% {
     color: green;
   }
+
   70% {
     color: cyan;
   }
+
   80% {
     color: DeepPink;
   }
+
   90% {
     color: DodgerBlue;
   }
+
   100% {
     color: orange;
   }
@@ -102,33 +112,43 @@
   0% {
     color: orange;
   }
+
   10% {
     color: purple;
   }
+
   20% {
     color: red;
   }
+
   30% {
     color: CadetBlue;
   }
+
   40% {
     color: yellow;
   }
+
   50% {
     color: coral;
   }
+
   60% {
     color: green;
   }
+
   70% {
     color: cyan;
   }
+
   80% {
     color: DeepPink;
   }
+
   90% {
     color: DodgerBlue;
   }
+
   100% {
     color: orange;
   }
@@ -139,33 +159,43 @@
   0% {
     color: orange;
   }
+
   10% {
     color: purple;
   }
+
   20% {
     color: red;
   }
+
   30% {
     color: CadetBlue;
   }
+
   40% {
     color: yellow;
   }
+
   50% {
     color: coral;
   }
+
   60% {
     color: green;
   }
+
   70% {
     color: cyan;
   }
+
   80% {
     color: DeepPink;
   }
+
   90% {
     color: DodgerBlue;
   }
+
   100% {
     color: orange;
   }
@@ -264,7 +294,7 @@ img {
 }
 
 .md-overlay,
-[data-gradient-bg] > canvas {
+[data-gradient-bg]>canvas {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -329,16 +359,17 @@ img {
   overflow-x: auto;
 }
 
-.table-responsive-01 table > thead > tr > th,
-.table-responsive-01 table > thead > tr > td,
-.table-responsive-01 table > tbody > tr > th,
-.table-responsive-01 table > tbody > tr > td,
-.table-responsive-01 table > tfoot > tr > th,
-.table-responsive-01 table > tfoot > tr > td {
+.table-responsive-01 table>thead>tr>th,
+.table-responsive-01 table>thead>tr>td,
+.table-responsive-01 table>tbody>tr>th,
+.table-responsive-01 table>tbody>tr>td,
+.table-responsive-01 table>tfoot>tr>th,
+.table-responsive-01 table>tfoot>tr>td {
   white-space: nowrap;
 }
 
 @media (max-width: 991px) {
+
   .table-responsive-02 table,
   .table-responsive-02 thead,
   .table-responsive-02 tbody,
@@ -386,7 +417,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #426efc;
+  color: #0A2942;
 }
 
 a:focus {
@@ -708,11 +739,11 @@ mark,
   display: none;
 }
 
-.header__left > span {
+.header__left>span {
   font-weight: 300;
 }
 
-.header__left > span + span:before {
+.header__left>span+span:before {
   content: "|";
   display: inline-block;
   margin: 0 40px;
@@ -954,11 +985,9 @@ mark,
 
 .ribbons-bg {
   background-color: #403060;
-  background-image: radial-gradient(
-    circle,
-    transparent 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background-image: radial-gradient(circle,
+      transparent 0%,
+      rgba(0, 0, 0, 0.8) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1920,7 +1949,7 @@ mark,
   min-width: 170px;
 }
 
-.btn > i {
+.btn>i {
   margin: 0 5px;
 }
 
@@ -1942,8 +1971,8 @@ mark,
   margin: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -1970,7 +1999,7 @@ mark,
   position: static;
 }
 
-.swiper-button-custom > div {
+.swiper-button-custom>div {
   position: absolute;
   top: 50%;
   width: 40px;
@@ -1986,7 +2015,7 @@ mark,
   transition: all 0.3s ease;
 }
 
-.swiper-button-custom > div:hover {
+.swiper-button-custom>div:hover {
   border-color: #ff9294;
   color: #ff9294;
 }
@@ -2004,7 +2033,7 @@ mark,
   margin-top: 20px;
 }
 
-.swiper-pagination-custom > span {
+.swiper-pagination-custom>span {
   width: 13px;
   height: 13px;
   background-color: #c9c9cf;
@@ -2053,7 +2082,7 @@ mark,
   margin: 0;
 }
 
-.row-grap > [class*="col-"] {
+.row-grap>[class*="col-"] {
   padding: 0;
 }
 
