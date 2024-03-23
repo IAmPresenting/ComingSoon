@@ -54,6 +54,29 @@
       </div>
     </div>
   </div>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyA0ZiQ26vZgqBlXM40qzT_wJ2C76DyV1Lo",
+      authDomain: "golden-touch-417407-400b4.firebaseapp.com",
+      projectId: "golden-touch-417407-400b4",
+      storageBucket: "golden-touch-417407-400b4.appspot.com",
+      messagingSenderId: "295585430611",
+      appId: "1:295585430611:web:94d2ae657ca22e0c765aa6",
+      measurementId: "G-9E3QD3EHSF"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <script type="text/javascript" src="assets/vendors/_jquery/jquery.min.js"></script>
   <script type="text/javascript" src="assets/vendors/jquery.countdown/jquery.countdown.min.js"></script>
   <script type="text/javascript" src="assets/vendors/flat-surface-shader/fss.min.js"></script>
